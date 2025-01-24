@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Exa:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.logo {
+  margin: auto;
+}
+.part {
+  text-align: center;
+}
+.part h1 {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 48px;
+}
+.part p {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #6c727f;
+  max-width: 567px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 60px; */
+}
+.container .box {
+  box-shadow: 0px 6px 14px #e5e7eb;
+  text-align: center;
+  font-weight: normal;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 20px;
+  /* max-height: 24vh; */
+}
+.container .box button {
+  background-color: #284bce;
+  color: #e5e7eb;
+  width: 550px;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  /* margin: 20px; */
+}
+.box h5,
+button {
+  width: 550px;
+  padding: 20px;
+  border: solid 1px #e5e7eb;
+  /*box-shadow: 0px 0px 5px #6C727F inset;
+    */
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #394150;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-size: 15px;
+  margin: 20px;
+}
+.container .box h5 {
+  background-color: #f9fafb;
+}
+.container .box p {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #6c727f;
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+.site {
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: minmax(0, 1fr);
+}
